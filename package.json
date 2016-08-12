@@ -1,0 +1,14 @@
+{
+  "name": "flow-check-contents-error",
+  "version": "1.0.0",
+  "description": "",
+  "main": "a.js",
+  "scripts": {
+    "flow": "flow && flow check-contents a.js < a.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "flow-bin": "^0.30.0"
+  }
+}
